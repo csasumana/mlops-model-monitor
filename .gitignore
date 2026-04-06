@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.env/
+.venv/
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Streamlit cache
+.streamlit/
+
+# Pytest / cache
+.pytest_cache/
+.mypy_cache/
+
+# Generated data
+data/processed/
+data/reference/
+data/batches/
+
+# Generated artifacts
+artifacts/
+mlruns/
+mlflow.db
+
+# Logs
+*.log
+
+# Jupyter
+.ipynb_checkpoints/
